@@ -1,0 +1,287 @@
+        /*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
+
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&display=swap');
+
+        body {
+            /* font-family: 'Bebas Neue', cursive;*/
+            font-family: 'Fira Sans Condensed', sans-serif;
+        }
+
+        header nav #navbarNav {
+            justify-content: flex-end;
+        }
+
+        header nav #navbarNav ul li a {
+            color: white;
+        }
+
+        header nav #navbarNav ul li a:hover {
+            color: rgba(255, 208, 0, 0.966);
+        }
+
+        header .carousel .carousel-item .carousel-caption {
+            bottom: 40%;
+        }
+
+        header .carousel .carousel-indicators {
+            justify-content: flex-start;
+            bottom: 30%;
+        }
+
+        header .carousel .carousel-item .carousel-caption h5 {
+            font-size: 60px;
+            text-transform: uppercase;
+            color: rgba(255, 208, 0, 0.966);
+            text-align: left;
+            justify-content: flex-start;
+        }
+
+        header .carousel .carousel-item .carousel-caption p {
+            font-size: 30px;
+            justify-content: flex-start;
+            text-align: left;
+        }
+
+        header nav {
+            position: fixed !important;
+            /*important se salta el otro codigo, para que la barra quede asegurada arriba*/
+            z-index: 20;
+            /*para que este sobre el texto o todas las cosas, como si fueran capas*/
+            width: 100%;
+        }
+
+        #block1 {
+            padding-bottom: 100px;
+            padding-top: 100px;
+        }
+
+        .item1 img {
+            width: 100%;
+        }
+
+        .item2 {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .item2 h3 {
+            color: cadetblue;
+        }
+
+        #block2 .itemA img {
+            width: 100%;
+            padding: 20px 20px;
+        }
+
+        #block2 .itemB img {
+            width: 100%;
+            padding: 20px 20px;
+        }
+
+        #block2 .itemC img {
+            width: 100%;
+            padding: 20px 20px;
+        }
+
+        #block2 .itemA {
+            background: rgb(74, 74, 173);
+            padding: 60px 60px;
+            align-content: center;
+        }
+
+        #block2 .itemB {
+            background: rgb(59, 59, 136);
+            padding: 60px 60px;
+        }
+
+        #block2 .itemC {
+            background: rgb(74, 74, 173);
+            padding: 60px 60px;
+        }
+
+        #block2 .itemA h3 {
+            color: white;
+            padding-top: 40px;
+        }
+
+        #block2 .itemB h3 {
+            color: white;
+            padding-top: 40px;
+        }
+
+        #block2 .itemC h3 {
+            color: white;
+            padding-top: 40px;
+        }
+
+        #block3 {
+            background: url(../img/builder.jpg);
+            background-size: cover;
+        }
+
+        #block3 .container {
+            padding: 200px 100px;
+        }
+
+        #block3 .item-2 img {
+            width: 40px;
+            padding-top: 5px;
+        }
+
+        #block3 .item-1 p {
+            font-size: 100%;
+            color: white;
+        }
+
+        #block3 .box1 {
+            padding-top: 60px;
+        }
+
+        #block3 h3 {
+            color: rgb(255, 238, 0);
+        }
+
+        #block3 .item-3 p {
+            color: white;
+        }
+
+        #block3 .item-3 {
+            justify-content: flex-start;
+        }
+
+        #block3 img {
+            width: 7%;
+        }
+
+        #block4 {
+            background-color: white;
+            padding-top: 200px;
+            padding-bottom: 200px;
+        }
+
+        #block4 .item--1 h1 {
+            font-size: 60px;
+        }
+
+        #block4 h2 {
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: underline yellow;
+        }
+
+        #block4 p {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        #block4 .item--2 img {
+            width: 200px;
+            padding: 10px 10px;
+        }
+
+        #block4 .item--3 img {
+            width: 200px;
+            padding: 10px 10px;
+        }
+
+        #redes {
+            position: fixed;
+            width: 60px;
+            z-index: 90;
+            text-align: center;
+            top: 45%;
+            padding: 20px 10px 10px;
+            background-color: rgb(252, 252, 121);
+        }
+
+        #redes img {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: 45px;
+
+        }
+
+        /* responsive para tablets */
+
+        @media screen and (max-width: 990px) and (min-width: 768px) {
+            header .carousel .carousel-item .carousel-caption {
+                text-align: center;
+                bottom: 33%;
+            }
+
+            header .carousel .carousel-indicators {
+                display: none;
+            }
+
+            header header .carousel .carousel-item .carousel-caption h5 {
+                font-size: 40px;
+            }
+
+            header .carousel .carousel-item .carousel-caption p {
+                font-size: 25px;
+                color: rgb(255, 238, 0);
+            }
+
+            #block2 .itemA img {
+                padding: 40px 20px;
+            }
+
+            #block2 .itemB img {
+                width: 100%;
+                padding: 40px 20px;
+            }
+
+            #block2 .itemC img {
+                padding: 40px 20px;
+            }
+
+            #block5.nav-tabs .nav-item.show .nav-link,
+            .nav-tabs .nav-link.active {
+                border-color: yellow yellow white yellow;
+                color: blueviolet;
+            }
+
+            #block6 .cont-portafolio .item-portafolio {
+                width: 300px;
+                box-shadow: 0 2px 5px 0 gray;
+            }
+        }
+
+        /* responsive para celular */
+
+        @media screen and (max-width: 768px) and (min-width: 320px) {
+            header .carousel .carousel-indicators {
+                display: none
+            }
+
+            .carouse.pointer-event {
+                padding-top: 100px;
+            }
+
+            #block .item1,
+            #block .item2,
+            #block .item3 {
+                text-align: center;
+            }
+
+            #block2 .itemA img {
+                padding: 40px 20px;
+            }
+
+            #block2 .itemB img {
+                width: 100%;
+                padding: 0px 20px;
+            }
+
+            #block2 .itemC img {
+                padding: 70px 20px;
+            }
+        }

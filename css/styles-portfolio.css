@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+#redes {
+    position: fixed;
+    width: 60px;
+    z-index: 90;
+    text-align: center;
+    top: 45%;
+    padding: 20px 10px 10px;
+    background-color: rgb(128, 128, 128);
+}
+
+#redes img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+header nav #navbarNavDropdown {
+    justify-content: flex-end;
+}
+
+.navbar {
+    background: rgb(58, 58, 58);
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#block1 {
+    background-color: rgb(114, 113, 113);
+}
+
+#block1 .item1 img {
+    padding: 60px 60px;
+    margin-right: 20 px;
+}
+
+#block1 .item2 {
+    background-color: white;
+    padding: 30px 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#block1 .item2 p {
+    font-size: 25px;
+}
+
+#block1 .item2 .item-3 img {
+    width: 20px !important;
+}
+
+
+/* responsive para tablets */
+
+@media screen and (max-width: 990px) and (min-width: 768px) {
+    #block1 .item1 img {
+        padding: 60px 60px;
+    }
+}
